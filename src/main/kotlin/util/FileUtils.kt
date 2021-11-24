@@ -10,7 +10,7 @@ internal object FileUtils {
         ).useLines { it.toList() }
 
 
-    fun fileAsInts(fileName: String): List<Int> = fileAsList(fileName).map { it.toInt() }
+    fun fileAsIntList(fileName: String): List<Int> = fileAsList(fileName).map { it.toInt() }
 
-
+    fun fileAsIntArray(fileName: String): Array<Int> = fileAsList(fileName).map { it.toInt() }.toTypedArray()
 }

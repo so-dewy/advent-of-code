@@ -1,7 +1,5 @@
-import java.io.File
-
-fun main(args: Array<String>) {
-    val solution = Day1.getSolution()
+fun main() {
+    val solution = Day1.getSolutionPart2()
 
     println(solution)
 }
